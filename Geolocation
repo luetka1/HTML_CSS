@@ -1,0 +1,19 @@
+001_GeolocationCheck.html
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Geolocation API</title>
+	<script>
+		function chrckSupport() {
+			if (navigator.geolocation) {
+				document.body.innerHTML = "Ваш браузер поддерживает HTML Geolocation API!";
+			}
+		}
+		window.addEventListener("load", chrckSupport, true);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
+
