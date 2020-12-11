@@ -3,10 +3,11 @@
 <html>
 <head>
 	<title>Canvas</title>
-	<script src="Modernizr-2.0.6.js" type="text/javacript"></script>
+	<script src="Modernizr-2.0.6.js"></script>
 	<script>
 		function draw() {
-			// проверка поддержки элемент canvas в браузере. 
+
+			// проверка поддержки элемент canvas в браузере.
 			if (!Modernizr.canvas) return;
 
 			// получение элемента и его графического контекста.
@@ -27,7 +28,8 @@
 	</script>
 </head>
 <body>
-	<canvas id="canvas" height="300" width="300" style="border: solid 1px black;:"> 
-		Ваш браузер не поддерживает элемент <b>Canvas</b></canvas>
+	<canvas id="canvas" height="300" width="300" style="border: solid 1px black;"> 
+		Ваш браузер не поддерживает элемент <b>Canvas</b>
+	</canvas>
 </body>
 </html>
